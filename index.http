@@ -1,0 +1,22 @@
+##login
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "username": "kavi",
+  "password": "kavi1234"
+}
+
+
+###register
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+  "username": "abhi",
+  "password": "abhi@999"
+}
+
+###products
+GET http://localhost:5000/products
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImthdmkiLCJpYXQiOjE3MzQ4OTIwODF9.6zNmE-A5NhMlGk9D6V663w5ZT3u76Ru9gEBlnb-u5k0
